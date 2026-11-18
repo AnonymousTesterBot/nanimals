@@ -55,7 +55,7 @@
                 <p class="card-text fg-2 text-l">Justice: N/A</p>
                 <p class="card-text fg-2 text-l">Extra info: Every 5 employee deaths cause the qliphoth counter to
                     lower.</p>
-                <a class="fg-3 d-flex justify-content-center align-items-end" href="#">Extract</a>
+                <a class="fg-3 d-flex justify-content-center align-items-end" href="#form">Extract</a>
             </div>
         </div>
         <div class="card col-6 m-8" style="width: 26rem; height: 36rem;">
@@ -69,19 +69,44 @@
                 <p class="card-text fg-2 text-l">Justice: N/A</p>
                 <p class="card-text fg-2 text-l">Extra info: Sacrifice 1 employee to [CENSORED] to increase the qliphoth
                     counter.</p>
-                <a class="fg-3 d-flex justify-content-center align-items-end" href="#">Extract</a>
+                <a class="fg-3 d-flex justify-content-center align-items-end" href="#form">Extract</a>
             </div>
         </div>
     </section>
-    <section class="container-fluid bg-1 my-0 py-6 text-center row d-flex justify-content-center">
-        <h2 class="text-2xl" h1> Contact information</h2>
-        <div class="card card-row" style="width: 30rem; height: 19rem;">
+    <section
+        class="container-fluid bg-1 my-0 py-6 text-center d-flex justify-content-center flex-column align-items-center">
+        <h2 class="text-2xl h1 text-center" id="form" > Contact information</h2>
+        <div class="card card-row p-0 m-6" style="width: 30rem; height: 19rem;">
 
             <div class="card-body">
                 <p class="card-text fg-1 text-l">Phone number: 986754213</p>
                 <p class="card-text fg-1 text-l">Email: email@email.email</p>
+                <p class="card-text fg-1 text-l">Email: email@email.email</p>
             </div>
-            <img class="card-img-end" href="images/map.png" alt="Map">
+            <img class="card-img-end object-fit-cover m-0 p-0" src="images/map.png" alt="Map" style="width: 16rem;">
+        </div>
+        <div class="card m-6 d-flex align-items-center justify-content-center p-6" style="width: 40rem;">
+            <h1 class="text-xl">Form</h1>
+            <div class="w-75 m-4">
+                <label for="exampleFormControlInput" class="form-label mb-2">Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput" placeholder="John Chorse">
+            </div>
+            <div class="w-75 m-4">
+                <label for="exampleFormControlInput" class="form-label mb-2">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput" placeholder="name@example.com">
+            </div>
+
+
+            <div class="form-field m-4">
+                <label for="exampleFormControlSelect2" class="form-label">Abnormality select</label>
+                <select class="form-control" id="exampleFormControlSelect2">
+                    <option>Choose Abnormality</option>
+                    <option value="1">Big Bird</option>
+                    <option value="2">[CENSORED]</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-solid theme-primary mb-3 m-4">Send form</button>
         </div>
     </section>
 </body>
